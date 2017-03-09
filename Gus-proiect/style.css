@@ -1,0 +1,865 @@
+  /* HOMEPAGE */
+
+  body {
+
+    background: none repeat scroll 0 0 ;
+
+    height: 100%;
+
+    margin:0;
+
+    width: 100%;
+  padding-top: 20px;
+  background-color: #f8f8f8;
+
+
+  }
+
+  .container{
+
+    margin: auto;
+
+      width: 1290px;
+
+    display: table;
+
+  }
+
+  a{
+
+    cursor: pointer;
+  border:none;
+  outline : none;
+
+  }
+
+  #header{
+
+    background-image: url("images/banda.png");
+    background-repeat: no-repeat;
+     background-position: 100% 119%;
+    background-size: 100% auto;
+    position: absolute;
+
+    margin-left: 100px;
+    width: 78.9%;
+    left: 37px;
+
+
+
+  }
+
+  #logo {
+      float: left;
+      margin-left: 80px;
+  }
+
+  #logo img{
+
+    width: 250px;
+
+    height: auto;
+
+  }
+
+  #menu {
+      float: right;
+      width: 68%;
+      margin-top: 46px;
+  }
+
+  #menu-list{
+
+      padding: 0px;
+    margin-top: 5px;
+
+  }
+
+  #menu-list li {
+      display: inline-block;
+      padding-right: 20px;
+  }
+
+  #menu-list li a {
+      color: #F8F8F8;
+      font-family: Verdana,Geneva,sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 14px;
+      text-decoration: none;
+  }
+  #content-index{
+    height: 970px !important;
+
+      background-image: url("images/content.png");
+
+   height: 800px; 
+
+    width: 960px;
+    margin: auto;
+
+     margin-top: 44px;
+
+    background-repeat: no-repeat;
+
+    background-size: 99% 100%;
+  }
+  #content{
+
+      background-image: url("images/content.png");
+
+   height: 800px; 
+
+    width: 960px;
+    margin: auto;
+
+     margin-top: 44px;
+
+    background-repeat: no-repeat;
+
+    background-size: 99% 100%;
+
+  }
+
+  .descriere {
+  width: 39%;
+    padding: 90px 0px 0px 65px;
+  display: inline-block;
+    float: left;
+  }
+  .descriere a{
+  text-decoration:none;
+  color:black;
+  }
+
+  .descriere h2{
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .7), 0px 2px 0 rgba(0, 0, 0, .5);
+    text-align: center;
+    color: #666;
+   letter-spacing: 4px;
+    font: normal 26px/1 Verdana, Helvetica;
+   margin: 0px 0px 15px;
+  border-bottom: 1px dotted;
+
+  text-transform: uppercase;
+   padding-bottom: 10px;
+
+  }
+  #reguli{
+    background-image: url("images/rules.png");
+    width: 39%;
+    background-position: 100% 91%;
+    background-repeat: no-repeat;
+    line-height: 22px;
+     background-size: 90% 78%;
+    margin-top: -10px;
+  }
+  #gus p{
+  text-indent:20px;
+  }
+
+  #reguli h2{
+  margin-top:10px;
+  }
+  #reguli p{
+  margin-bottom:5px;
+  }
+  .descriere p{
+
+  font-size: 18px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  }
+  #gus p::first-letter { 
+      font-size: 150%;
+      color: black;
+  }
+
+
+  #incepe-joc{
+
+  margin:auto;
+  width:400px;
+  clear:both;
+  }
+  #incep{
+  background-image: url('images/sfas.png');
+  width:400px;
+  height:404px;}
+
+  #incep:active{
+
+  background-image: url('images/sdg.png');
+  width:400px;
+  height:400px;
+
+
+  }
+
+
+  #footer{
+
+      background-image: url("images/banda-footer.png");
+
+    height: 132px;
+
+    background-size: 100% 100%;
+
+  }
+
+  #cr{
+
+      margin: auto;
+
+    width: 515px;
+
+  }
+
+  #cr img{
+
+      display: inline-block;
+
+    width: 20%;
+
+      margin-top: 22px;
+
+  }
+
+  #cr p{
+
+      display: inline-block;
+
+    width: 76%;
+
+    float: right;
+
+      margin-top: 60px;
+
+      color: white;
+
+  }
+  #drop-down {
+      width: 160px;
+      background: none repeat scroll 0% 0% #0085C9;
+      margin-left: 300px;
+      padding-top: 20px;
+      border-right: 5px solid #2BA5E4;
+      border-bottom: 5px solid #2BA5E4;
+      border-left: 5px solid #2BA5E4;
+      -moz-border-top-colors: none;
+      -moz-border-right-colors: none;
+      -moz-border-bottom-colors: none;
+      -moz-border-left-colors: none;
+      border-image: none;
+      border-top: medium none !important;
+      margin-top: 13px;
+
+  }
+
+  #drop-down a {
+      display: block;
+      margin-bottom: 3px;
+      font-family: Georgia, serif;
+      color: #F8F8F8;
+      margin-left: 10px;
+      font-weight: bold;
+      font-size: 15px;
+  }
+
+  #drop-down input{
+
+    width: 122px;
+
+    margin-left: 15px;
+
+    background-color: #0085B3;
+
+    border-radius: 5px;
+
+    border: 1px solid white;
+
+    color: white;
+
+    margin-top: 10px;
+
+  }
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+ color: white; 
+}
+
+:-ms-input-placeholder {  
+  color: white;  
+}
+  #istoric{
+
+      text-decoration: none;
+
+    margin-top: 7px;
+
+    font-size: 17px;
+
+    padding-left: 45px;
+
+    border-top: 6px solid #2ba5e4;
+
+    margin-left: 0 !important;
+
+    padding-top: 3px;
+    text-transform: uppercase;
+
+  }
+
+  #login-index {
+     background-image: url("images/login.png"); 
+     background-repeat: no-repeat;
+      float: right;
+      margin-top: -39px;
+        margin-right: 98px;
+      border-radius: 10px;
+      border: 2px solid rgb(248, 248, 248);
+      padding: 1px 8px;
+      background-position: 3% 59%;
+  }
+
+  #login-index:active {
+      background-image: url("images/login-active.png"); 
+     background-repeat: no-repeat;
+      float: right;
+    border-radius: 10px;
+      border: 2px solid #F8F8F8;
+      padding: 1px 8px;
+      background-color: #F8F8F8;
+      background-position: 3% 59%;
+
+  }
+
+
+  #login-index p {
+      text-decoration: none;
+      color: #f8f8f8;
+      font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+      font-size: 13px;
+   margin-left: 10px;
+      font-weight: bold;
+  margin-top:0;
+  margin-bottom:0;
+  }
+
+
+
+  #login-index:active p {
+    
+    color:#0085c9;
+  }
+
+
+
+
+  /* GAMEPLAY */
+
+  #imagine-concurs{
+
+      margin: 150px 0 0 219px;
+
+    width: 300px;
+
+    position: absolute;
+
+  }
+
+  #stea{
+
+    position: absolute;
+    opacity: 0.6;
+      top: 0px;
+    margin: 10px;
+
+  }
+
+  #img-concurs{
+
+    width: 500px;
+    border: 3px solid #2ba5e4;
+      border-radius: 8px;
+
+
+  }
+  #imagine-concurs p{
+    font-size: 40px;
+    margin: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    position: absolute;
+    top: 312px;
+    width: 500px;
+    text-align: center;
+     background-color: rgba(0,0,0,0.3);
+    text-shadow: 2px -2px #191919;
+    color: white;
+    padding: 4px 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+   -webkit-text-stroke-width: 1px;
+    margin-left: 3px;
+
+  }
+  #raspuns{
+     float: left;
+      margin-top: 510px;
+    margin-left: 202px;
+      width: 527px;
+  }
+
+  #raspuns p{
+
+     font-size: 40px;
+
+     margin: 0;
+
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  }
+
+  #raspuns-input{
+    background-color: #f8f8f8;
+    border: 3px solid #2ba5e4;
+    float: left;
+    width: 350px;
+
+    height: 30px;
+
+    margin-left: 20px;
+
+      border-radius: 10px;
+
+    padding-left: 25px;
+
+    font-size: 20px;
+
+  }
+  #submit-var{
+
+    float: right;
+    background-color: #2ba5e4;
+    background-image: -moz-linear-gradient(center top , #2ba5e4, #0085c9);
+    background-image: -webkit-linear-gradient(center top , #2ba5e4, #0085c9);
+    background-image: -o-linear-gradient(center top , #2ba5e4, #0085c9);
+    border-radius: 3px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.3) inset;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #046394 #046394 #046394;
+
+    height: 35px;
+    padding: 0px;
+    width: 120px;
+    cursor: pointer;
+    font: bold 15px Arial,Helvetica;
+    color: #f8f8f8;
+  }
+  #optiuni-joc {
+
+  margin-left: 329px;
+
+    position: relative;
+    top: 536px;
+     height: 50px;
+    margin-bottom: 50px;
+
+
+  }
+
+  .variante-input{
+    border: 3px solid #2ba5e4;
+      font-size: 15px;
+    background-color:#0085c9;
+    padding: 3px 4px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+  #variante p{
+
+    font-size: 14px;
+
+
+  }
+
+  #var{
+  border: 0;
+
+
+  }
+
+  #metode{
+  border: 0;
+
+  }
+
+  #prieten form input{
+
+    width: 260px;
+
+  }
+#prieten form{
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size:15px;
+  width: 380px;
+  padding: 6px 7px;
+}
+#prieten input{
+float:right;
+}
+#send-prieten{
+
+    background-color: #2ba5e4;
+    background-image: -moz-linear-gradient(center top , #2ba5e4, #0085c9);
+    background-image: -webkit-linear-gradient(center top , #2ba5e4, #0085c9);
+    background-image: -o-linear-gradient(center top , #2ba5e4, #0085c9);
+    border-radius: 3px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.3) inset;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #046394 #046394 #046394;
+
+    height: 35px;
+    padding: 0px;
+    width: 120px !important;
+    cursor: pointer;
+    font: bold 15px Arial,Helvetica;
+    color: #f8f8f8;
+
+}
+#raspuns-input::-webkit-input-placeholder {
+   color: #666;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#raspuns-input:-moz-placeholder { /* Firefox 18- */
+   color: #666;  
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#raspuns-input::-moz-placeholder {  /* Firefox 19+ */
+ color: #666; 
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#raspuns-input:-ms-input-placeholder {  
+  color:#666;  
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+  /*CONTACT*/
+
+  #contact-form {
+
+    margin-left: 157px;
+
+    padding-top: 125px;
+
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  }
+
+  #submit-contact{
+
+    display: block;
+
+    border: 2px solid #0085c9;
+
+    border-radius: 8px;
+
+    background-color: #f8f8f8;
+
+    height: 23px;
+
+    width: 74px;
+
+      margin-top: 15px;
+
+
+  }
+
+  #select-contact{
+
+    border: 2px solid #0085c9;
+
+    border-radius: 5px;
+
+    height: 23px;
+
+  }
+
+  #textarea-contact{
+
+     border: 2px solid #0085c9;
+
+    border-radius: 5px;
+
+    background-color: #f8f8f8;
+
+  }
+
+
+
+  /*LOGIN*/
+  #login
+  {
+    background-color: #FFF;
+    height: 240px;
+    width: 400px;
+    margin: -150px 0px 0px -230px;
+    padding: 30px;
+    position: absolute;
+      top: 50%;
+    left: 50%;
+  }
+
+  #login:before
+  {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      border: 1px dashed #ccc;
+      top: 5px;
+      bottom: 5px;
+      left: 5px;
+      right: 5px;
+      -moz-box-shadow: 0 0 0 1px #fff;
+      -webkit-box-shadow: 0 0 0 1px #fff;
+      box-shadow: 0 0 0 1px #fff;
+  }
+
+  /*--------------------*/
+
+  #login h1
+  {
+      text-shadow: 0 1px 0 rgba(255, 255, 255, .7), 0px 2px 0 rgba(0, 0, 0, .5);
+      text-transform: uppercase;
+      text-align: center;
+      color: #666;
+      margin: 0 0 30px 0;
+      letter-spacing: 4px;
+      font: normal 26px/1 Verdana, Helvetica;
+      position: relative;
+  }
+
+  #login h1:after, h1:before
+  {
+      background-color: #777;
+      content: "";
+      height: 1px;
+      position: absolute;
+      top: 15px;
+      width: 120px;   
+  }
+
+  #login h1:after
+  { 
+      background-image: -webkit-gradient(linear, left top, right top, from(#777), to(#fff));
+      background-image: -webkit-linear-gradient(left, #777, #fff);
+      background-image: -moz-linear-gradient(left, #777, #fff);
+      background-image: -ms-linear-gradient(left, #777, #fff);
+      background-image: -o-linear-gradient(left, #777, #fff);
+      background-image: linear-gradient(left, #777, #fff);      
+      right: 0;
+  }
+
+  #login h1:before
+  {
+      background-image: -webkit-gradient(linear, right top, left top, from(#777), to(#fff));
+      background-image: -webkit-linear-gradient(right, #777, #fff);
+      background-image: -moz-linear-gradient(right, #777, #fff);
+      background-image: -ms-linear-gradient(right, #777, #fff);
+      background-image: -o-linear-gradient(right, #777, #fff);
+      background-image: linear-gradient(right, #777, #fff);
+      left: 0;
+  }
+
+  /*--------------------*/
+
+  fieldset
+  {
+      border: 0;
+      padding: 0;
+      margin: 0;
+  }
+
+  /*--------------------*/
+
+  #inputs input
+  {
+      background: #f1f1f1 url(http://www.red-team-design.com/wp-content/uploads/2011/09/login-sprite.png) no-repeat;
+
+      padding: 15px 15px 15px 30px;
+      margin: 0 0 10px 0;
+      width: 353px; /* 353 + 2 + 45 = 400 */
+      border: 1px solid #ccc;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+      -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+      box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+  }
+
+  #username
+  {
+      background-position: 5px -2px !important;
+  }
+
+  #password
+  {
+      background-position: 5px -52px !important;
+  }
+
+  #inputs input:focus
+  {
+      background-color: #f8f8f8;
+      border-color: #2ba5e4;
+      outline: none;
+      -moz-box-shadow: 0 0 0 1px #2ba5e4 inset;
+      -webkit-box-shadow: 0 0 0 1px #2ba5e4 inset;
+      box-shadow: 0 0 0 1px #2ba5e4 inset;
+
+  }
+
+  #actions
+  {
+      margin: 25px 0 0 0;
+  }
+
+  #submit {
+      background-color: #2ba5e4;
+      background-image: -moz-linear-gradient(center top , #2ba5e4, #0085c9);
+    background-image: -webkit-linear-gradient(center top , #2ba5e4, #0085c9);
+    background-image: -o-linear-gradient(center top , #2ba5e4, #0085c9);
+      border-radius: 3px;
+      text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.3) inset;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #046394 #046394 #046394;
+      float: left;
+      height: 35px;
+      padding: 0px;
+      width: 120px;
+      cursor: pointer;
+      font: bold 15px Arial,Helvetica;
+      color: #f8f8f8;
+  }
+#signup-p{
+font: normal 15px Verdana, Helvetica;
+  clear: both;
+  margin-top: 100px;
+}
+#signup-p a{
+float:none !important;
+text-decoration:none;
+  font-weight: bold;
+margin-left:0px !important;
+}
+#username::-webkit-input-placeholder {
+   color: #666;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#username:-moz-placeholder { /* Firefox 18- */
+   color: #666;  
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#username::-moz-placeholder {  /* Firefox 19+ */
+ color: #666; 
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#username:-ms-input-placeholder {  
+  color:#666;  
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#password::-webkit-input-placeholder {
+   color: #666;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#password:-moz-placeholder { /* Firefox 18- */
+   color: #666;  
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#password::-moz-placeholder {  /* Firefox 19+ */
+ color: #666; 
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#password:-ms-input-placeholder {  
+  color:#666;  
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+  #signup {
+      background-color: #2ba5e4;
+      background-image: -moz-linear-gradient(center top , #2ba5e4, #0085c9);
+    background-image: -webkit-linear-gradient(center top , #2ba5e4, #0085c9);
+    background-image: -o-linear-gradient(center top , #2ba5e4, #0085c9);
+      border-radius: 3px;
+      text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.3) inset;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #046394 #046394 #046394;
+      float: left;
+      height: 35px;
+      padding: 0px;
+      width: 120px;
+      cursor: pointer;
+      font: bold 15px Arial,Helvetica;
+      color: #f8f8f8;
+  }
+  #submit:active
+  {   
+      outline: none;
+     
+       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+       -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;    
+  }
+
+  #submit::-moz-focus-inner
+  {
+    border: none;
+  }
+
+  #actions a
+  {
+      color: #3151A2;    
+      float: right;
+      line-height: 35px;
+      margin-left: 10px;
+  }
+
+  /*--------------------*/
+
+  #back
+  {
+      display: block;
+      text-align: center;
+      position: relative;
+      top: 60px;
+      color: #999;
+    }

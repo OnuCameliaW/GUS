@@ -1,0 +1,7 @@
+Baza de date imagini
+1.Tabela imagini(nume_imagine,imagine,dificultate)
+
+Baza de date utilizatori
+1.Tabela utilizatori(id,nume,parola,email,istoric)
+2.Tabela mesaje(id_utilizator,mesaj)
+3.Tabela clasamente(id,data,clasament)

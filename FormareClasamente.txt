@@ -1,0 +1,2 @@
+In tabela "Ulilizatori",fiecare ulizitator va avea ca atribut Data si Punctajul din data respectiva.In functie de data ,se vor forma niste clasamente zilnice care vor cuprinde utilizatorii cu punctaj maxim din ziua respectiva.Cu ajutorul functiei "fputcsv"",acesti utilizatori ,cat si punctajele lor,vor fi puse in fisere CSV.
+Formatul JSON permite crearea de obiecte cu ajutorul JavaScript.Se vor folosi functiile json_encode() si json_decode() pentru a putea lucra cu  formatul JSON in PHP.

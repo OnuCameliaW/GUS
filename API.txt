@@ -1,0 +1,12 @@
+1.FLICKR este cel mai mare site de fotografie de pe Internet.Integrarea Flickr in site-ul nostru se va face folosind Flickr API si phpFlickr.
+
+Pasul 1:Iau o cheie pentru Flickr API
+Accesez http://www.flickr.com/services/apps/create/apply/ ,aplic pentru folosinta necomerciala si fac rost de cheie.
+
+Pasul 2:Descarc phpFlickr
+PhpFlick este o clasa scrisa in PHP care se comporta ca un wrapper pentru API.Fisierele proceseaza datele date de Flickr si returneaza vectori in PHP pe care ii vom folosi pentru a afisa imagini.
+
+Pasul 3:Configurari
+In pasul curent,ma conectez la Flickr pentru a primi acces la imagini.Inainte de a incepe procesul,se creaza un folder 'cache' cu permisiune de scriere(CHMOD 777) ,pentru o functionare corecta a phpFlickr.
+In fisierul config.php se vor introduce username-ul folosit pentru Flickr si cheia generata mai sus.
+In variabila $photos( $photos = $f->people_getPublicPhotos($nsid, NULL, NULL) ,$nsid semnifica un id al unui utilizator unic din array-ul $result) se vor stoca imaginile de la un anumit utilizator al carui id va fi introdus din program.

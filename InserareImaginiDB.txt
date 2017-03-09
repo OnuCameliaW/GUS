@@ -1,0 +1,3 @@
+Inserarea imaginilor  in Baza de Date se va face preluand imaginile local cat si cu ajutorul API-ului de la Flickr.
+Inserarea imaginilor local se va face folosind functii specifice ORACLE in PHP.Aceste imagini sunt considerate fisiere de tip BLOBs asa ca inserarea acestor fisiere se va face folosind functiile:file_get_contents-pentru continutul imaginii,insertBlob-pentru inserare.Inserarea imaginilor va fi facuta dintr-un form de tip upload.
+Imaginile preluate din API-ul Flickr in array-ul $photos,vor fi introduse in baza de date.

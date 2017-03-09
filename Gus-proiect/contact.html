@@ -1,0 +1,136 @@
+	<!DOCTYPE html>
+
+	<html>
+
+	<head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Guess The Star</title>
+	<link rel="icon"  type="image/png" href="images/favicon.png">
+
+	<meta charset="utf-8" /> 
+
+	<script src="script.js"> </script>
+
+	</head>
+
+	<body>
+
+		<div class="container">
+
+				<div id="header">
+
+				<div id="logo"><a href="index.html"><img src="images/Logo.png"></a></div>
+
+				<div id="menu">
+
+					<ul id="menu-list">
+
+					<li><a href="index.html">Home</a></li>
+
+					<li><a href="clasamente.html">Clasamente</a></li>
+
+					<li><a href="gameplay.html">Game Play</a></li>
+
+					<li><a onclick="showSchimba()" >Contul meu</a></li>
+
+					<div id="drop-down" style="display:none;">
+
+						<a id="aNume" onclick="showNume()">Schimba nume</a>
+
+						<a id="aUser" onclick="showUser()">Schimba user</a>
+
+						<a id="aPass" onclick="showPass()">Schimba parola</a>
+
+						<form action="index.html" method="POST" id="schimba">
+
+							<input style="display:none;" id="nume" type="text" name="name"  placeholder="Noul Nume">
+
+							<input style="display:none;" id="user" type="text" name="name"  placeholder="Noul UserName">
+
+							<input style="display:none;" id="pass" type="text" name="name"  placeholder="Noua Parola">
+
+							<input style="display:none;" id="submit-drop" type="submit" value="Send">
+
+						</form>
+
+						<a id="istoric" href="istoric.html">Istoric<a>
+
+					</div>
+
+					<li><a href="contact.html">Contact</a></li>
+
+					</ul>
+	<a  href="login.html" >				</ul>
+	<div id="login-index">
+
+					<p>Login</p>
+
+				</div></a>
+
+
+				</div>
+
+	</div>
+
+			<div id="content">
+
+			<form id="contact-form" action="contact.html" method="POST">
+
+				<p>Esti logat ca utilizatorul:NumeUtilizator</p>
+
+				<p>Nota site: <select id="select-contact">
+
+	 						 <option value="1">1</option>
+
+	  						 <option value="2">2</option>
+
+	  						 <option value="3">3</option>
+
+	  						 <option value="4">4</option>
+
+	  						 <option value="5">5</option>
+
+	  						 <option value="6">6</option>
+
+	  						 <option value="7">7</option>
+
+	  						 <option value="8">8</option>
+
+	  						 <option value="9">9</option>
+
+	  						 <option value="10">10</option>
+
+							  </select>
+
+				<p>Mesaj</p>
+
+				<textarea id="textarea-contact" rows="10" cols="50" name="comment">Enter text here...</textarea>
+
+				<input id="submit-contact"  type="submit" value="Submit">
+
+			</form>
+
+			</div>
+
+			</div>
+
+
+
+			<div id="footer">
+
+				<div id="cr">
+
+					<img src="images/stea-footer.png">
+
+					<p>© 2015 Guess the STAR All rights reserved</p>
+
+				</div>
+
+			</div>
+
+		
+
+	</body>
+
+	</html>

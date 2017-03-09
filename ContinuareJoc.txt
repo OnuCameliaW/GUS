@@ -1,0 +1,1 @@
+Pentru ca dorim pastrarea unei sesiuni de joc anterioare in contul curent,vom folosi sesiuni ,si nu cookie-uri.Diferenta dintre cele doua este ca cookie-urile salveaza datele in browser iar sesiunea salveaza datele in serverul web.

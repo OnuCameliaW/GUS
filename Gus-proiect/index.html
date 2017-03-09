@@ -1,0 +1,131 @@
+	<!DOCTYPE html>
+
+	<html>
+
+	<head>
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Guess The Star</title>
+	<link rel="icon"  type="image/png" href="images/favicon.png">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+	<script src="script.js"> </script>
+
+
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div id="header">
+
+				<div id="logo"><a href="index.html"><img src="images/Logo.png"></a></div>
+
+				<div id="menu">
+
+					<ul id="menu-list">
+
+					<li><a href="index.html">Home</a></li>
+
+					<li><a href="clasamente.html">Clasamente</a></li>
+
+					<li><a href="gameplay.html">Game Play</a></li>
+
+					<li><a onclick="showSchimba()" >Contul meu</a></li>
+
+					<div id="drop-down" style="display:none;">
+
+						<a id="aNume" onclick="showNume()">Schimba nume</a>
+
+						<a id="aUser" onclick="showUser()">Schimba user</a>
+
+						<a id="aPass" onclick="showPass()">Schimba parola</a>
+
+						<form action="index.html" method="POST" id="schimba">
+
+							<input style="display:none;" id="nume" type="text" name="name" placeholder="Noul Nume">
+
+							<input style="display:none;" id="user" type="text" name="name"  placeholder="Noul UserName">
+
+							<input style="display:none;" id="pass" type="text" name="name"  placeholder="Noua Parola">
+
+							<input style="display:none;" id="submit-drop" type="submit" value="Send">
+
+						</form>
+
+						<a id="istoric" href="istoric.html">Istoric<a>
+
+					</div>
+
+					<li><a href="contact.html">Contact</a></li>
+
+	<a  href="login.html" >				</ul>
+	<div id="login-index">
+
+					<p>Login</p>
+
+				</div></a>
+
+				</div>
+
+	</div>
+
+			<div id="content-index" >
+
+				
+
+
+
+
+
+			
+
+				<div class="descriere" id="gus">
+
+					<h2>Guess The Star</h2>
+
+	<p>Guess the Star este un joc destinat persoanelor de <b>orice vârstă</b> care vor să-şi testeze cunoştinţele legate de <b>celebrităţi</b>. Este un mod simplu de a te relaxa şi de a vedea chipuri noi. </p>
+	<p>Ghicirea numelor unor personalităţi celebre cu ajutorul imaginilor o poţi face fie prin <b>tastarea directă</b> a numelui fie prin apelarea la <b>metode ajutătoare</b> precum variantele de răspuns sau ajutorul unui prieten. </p>
+	<p>Vei putea să-ţi viziualizezi oricând <b>istoricul</b> propriilor punctaje şi de asemenea poţi să reîncepi jocul oricând. </p>
+
+	</div>
+
+				<div class="descriere" id="reguli">
+
+					<h2>Reguli</h2>
+
+	<p>1. Daca nu ai <b>cont</b>, iţi poţi crea unul apasand butonul <a href="login.html"><b>Signup</b></a>.</p>
+	<p>2. Poţi intra in joc apasând  pe  <b>steluţa galbenă</b> sau dând click pe <b>GamePlay</b> din meniu.</p>
+	<p>3. Odata ce ai ghicit numele <b>personalitaţii</b>, tastează-l in câmpul rezervat tastării de nume.</p>
+	<p>4. Dacă nu eşti sigur de răspunsul tău poţi alege una din cele 3 <b>variante de raspuns</b> sau poţi apela la ajutorul unui prieten.</p>
+	<p>5. Jocul se termină atunci când vei <b>greşit</b> numele personalitaţii.</p>
+	</div>
+
+	<div id="incepe-joc">
+	<a id="joaca" href="gameplay.html"><div id="incep"></div></a>
+	</div>
+
+			</div>
+
+			</div>
+
+			<div id="footer">
+
+				<div id="cr">
+
+					<img src="images/stea-footer.png">
+
+					<p> 2015 Guess the STAR All rights reserved</p>
+
+				</div>
+
+			</div>
+
+		
+
+	</body>
+
+	</html>
